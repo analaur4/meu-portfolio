@@ -2,7 +2,7 @@
 
 ## Links
 
-- URL da Solução: [Ana Laura - Developer]()
+- URL da Solução: [Ana Laura - Developer](https://portfolio-analaura.netlify.app/)
 
 ## Meu Processo
 
@@ -13,6 +13,7 @@
 - Flexbox
 - Desktop-first
 - Javascript
+- Responsividade
 
 ## Autora
 
