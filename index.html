@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Laura - Developer</title>
+
+    <link rel="shortcut icon" href="./img/animoji.webp" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="tamanho-container">
+        <span>Portfólio</span>
+        <ul class="menu">
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+        </ul>
+
+        <div class="hamburguer" onclick="initNavegaMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    
+    <div class="nav-hamburguer fade">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#habilidades">Habilidades</a>
+    </div>
+
+    <header class="tamanho-container">
+        <div class="texto-header">
+            <h3>Seja bem vindo!</h3>
+            <h1>Olá, me chamo Ana Laura</h1>
+            <span>Desenvolvedora fullstack (Angular/Spring)</span>
+            <a href="https://www.linkedin.com/in/analaura-silva/" target="_blank">Acessar LinkedIn</a>
+        </div>
+
+        <div class="imagem-header">
+            <img src="./img/animoji.webp" alt="Animoji Ana Laura">
+        </div>
+    </header>
+
+    <section class="tamanho-container sobre" id="sobre">
+        <h2 class="titulo-section">Sobre Mim</h2>
+        <p>Me chamo Ana Laura, conheci a área de tecnologia após ingressar na primeira turma do Ensino Técnico Integrado ao Médio em Informática (ETIM) da Etec de Rio Grande da Serra em 2016. Me identifiquei com o curso, e assim que o conclui, dei início a um Bacharelado em Ciência da Computação.</p>
+        <p>Hoje atuo com desenvolvimento fullstack utilizando ferramentas como: Angular 5+, HTML, CSS, JS e Spring Framework. Também possuo conhecimentos básicos em outras linguagens como: Nodejs, React e React Native. Sou apaixonada pelo que faço e busco sempre aumentar meu conhecimento na área, estou constantemente fazendo cursos e leituras das ferramentas que utilizo e do que tenho vontade de aprender.</p>
+    </section>
+
+    <section class="tamanho-container projetos" id="projetos">
+        <h2 class="titulo-section">Projetos</h2>
+        <div class="cards-projetos">
+            <div class="card">
+                <a href="https://github.com/analaur4/pokedex" target="_blank"><img src="./img/github.svg" alt="Logo github"></a>
+                <h3 class="titulo-projeto">Pokedex</h3>
+                <p>Aplicação - Pokédex - criada ao longo da formação Angular, da plataforma TreinaWeb.</p>
+            </div>
+    
+            <div class="card">
+                <a href="https://github.com/analaur4/dsdeliver" target="_blank"><img src="./img/github.svg" alt="Logo github"></a>
+                <h3 class="titulo-projeto">DSDeliver</h3>
+                <p>Aplicação desenvolvida durante a semana DevSuperior 2.0</p>
+            </div>
+    
+            <div class="card">
+                <a href="https://github.com/analaur4/jogo-da-velha" target="_blank"><img src="./img/github.svg" alt="Logo github"></a>
+                <h3 class="titulo-projeto">Jogo da Velha</h3>
+                <p>Jogo da velha desenvolvido no 'Curso de Javascript - Jogo da Velha' da plataforma TreinaWeb</p>
+            </div>
+
+            <div class="card">
+                <a href="https://github.com/analaur4/github-explorer" target="_blank"><img src="./img/github.svg" alt="Logo github"></a>
+                <h3 class="titulo-projeto">GitHub Explorer</h3>
+                <p>Aplicação desenvolvida em ReactJS com conexão a API do GitHub para busca de repositórios.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="tamanho-container habilidades" id="habilidades">
+        <h2 class="titulo-section">Habilidades</h2>
+        <div class="icons-habilidades">
+            <img src="./img/html-5.svg" alt="Logo HTML5">
+            <img src="./img/css3.svg" alt="Logo CSS3">
+            <img src="./img/javascript-logo.svg" alt="Logo Javascript">
+            <img src="./img/angular.svg" alt="Logo Angular">
+            <img src="./img/spring-logo.svg" alt="Logo Spring">
+            <img src="./img/mysql-logo.svg" alt="Logo MySQL">
+        </div>
+    </section>
+
+    <footer>
+        <span>Copyright © 2022 Ana Laura</span>
+    </footer>
+
+    <script defer src="./script.js"></script>
+</body>
+</html>
